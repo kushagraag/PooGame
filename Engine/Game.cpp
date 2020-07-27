@@ -47,6 +47,7 @@ void Game::Go()
 	ComposeFrame();
 	gfx.EndFrame();
 }
+//sdgdfbgf
 
 void Game::UpdateModel()
 {
