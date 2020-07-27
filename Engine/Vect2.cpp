@@ -14,7 +14,7 @@ Vect2 Vect2::operator+(const Vect2& rhs) const
 
 Vect2& Vect2::operator+=(const Vect2& rhs)
 {
-	return *this + rhs;
+	return *this = *this + rhs;
 }
 
 Vect2 Vect2::operator*(float rhs) const
@@ -24,5 +24,5 @@ Vect2 Vect2::operator*(float rhs) const
 
 Vect2& Vect2::operator*=(float rhs)
 {
-	return *this * rhs;
+	return *this = *this * rhs;
 }
